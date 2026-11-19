@@ -1,5 +1,5 @@
 context:
-  version: "11.49.5"
+  version: "11.59.0"
 
 package:
   name: pymobiledevice3
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pymobiledevice3/pymobiledevice3-${{ version }}.tar.gz
-  sha256: 627834b88af88f562b413d97a014f29b3fd3cc246eb8b0249d795810eed35e22
+  sha256: 884265706787e5b1802c344b8f9ccffaf09cd91413cb62db27070e97a542c26d
 
 build:
   number: 0
@@ -31,7 +31,7 @@ requirements:
     - daemonize
     - pykdebugparser >=1.10.0
     - rich >=13.0.0
-    - ansilogs >=1.1.0
+    - ansilogs >=1.2.0
     - requests
     - packaging
     - typing_extensions >=4.1.0
