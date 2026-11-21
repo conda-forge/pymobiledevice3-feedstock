@@ -1,5 +1,5 @@
 context:
-  version: "11.59.0"
+  version: "11.61.1"
 
 package:
   name: pymobiledevice3
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pymobiledevice3/pymobiledevice3-${{ version }}.tar.gz
-  sha256: 884265706787e5b1802c344b8f9ccffaf09cd91413cb62db27070e97a542c26d
+  sha256: 607f035aa29b4cb98f8b939780a47ea467121016c34bbdee013bf40e243d36d6
 
 build:
   number: 0
